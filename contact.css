@@ -1,0 +1,82 @@
+/* 26. Styling for the contact content section */
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+    padding-top: 10rem !important;
+}
+
+
+/* 27. Styling for the h3 element within the contact content */
+
+.contact-content>h3 {
+    color: rgb(0, 110, 255);
+    font-size: 4rem;
+}
+
+
+/* 28. Styling for the contact description section */
+
+.contact-desc {
+    width: 50%;
+}
+
+
+/* 29. Styling for the h3 element within the contact description */
+
+.contact-desc>h3 {
+    color: rgb(0, 110, 255);
+    margin-bottom: 1rem;
+}
+
+
+/* 30. Styling for paragraphs within the contact description */
+
+.contact-desc>p {
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+
+/* 31. Styling for text input */
+
+input[type="text"] {
+    padding: 10px;
+    border: 0;
+    width: 100%;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+
+/* 32. Styling for text area input */
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+
+/* 33. Styling for the button within the contact form */
+
+.contact-desc>form>button {
+    padding: 0.7rem 2rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 6px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+
+/* 34. Styling for the button on hover within the contact form */
+
+.contact-desc>form>button:hover {
+    background-color: rgb(0, 110, 255);
+    border: 1px solid rgb(0, 110, 255);
+    color: white;
+}

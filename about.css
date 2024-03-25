@@ -1,0 +1,41 @@
+/* 15. Styling for the about content section */
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+    height: 80vh;
+    padding-top: 10rem !important;
+}
+
+
+/* 16. Styling for the h3 element within the about content */
+
+.about-content>h3 {
+    color: rgb(255, 234, 0);
+    font-size: 4rem;
+}
+
+
+/* 17. Styling for the about description section */
+
+.about-desc {
+    width: 50%;
+}
+
+
+/* 18. Styling for the h3 element within the about description */
+
+.about-desc>h3 {
+    color: rgb(255, 21, 0);
+    margin-bottom: 1rem;
+}
+
+
+/* 19. Styling for paragraphs within the about description */
+
+.about-desc>p {
+    margin-bottom: 1rem;
+}
